@@ -1,0 +1,22 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    margin-left: 300px;
+}
+
+@media (min-width: 1133px) and (max-width: 1710px){
+    body{
+        margin-left: 218px;
+    }
+}
+
+@media (max-width: 1132px){
+    body{
+        margin-left: 65px;
+    }
+}
+
+p{
+    margin: 0;
+}
+
