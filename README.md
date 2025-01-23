@@ -22,12 +22,21 @@ This project is a **responsive clone** of the Instagram user profile page under 
 2. Open the index.html file in any browser to view the project.
 
 
+## Pixel Units and Display Compatibility
+
+This project currently uses `px` for layout and styling, which works well on devices with a device pixel ratio (DPR) of 1. However, it may appear slightly different on high-DPI devices or when the browser zoom setting is changed.
+
+For now, users can adjust their browser zoom settings or view the project on devices with DPR = 1 for the best experience.
+
+
 ## Future Improvements
 
 - Add mobile-friendly support with media queries.
+- Replace the use of `px` with scalable units like `rem`, `%`, and `vh/vw` to improve responsiveness and compatibility with high-DPI screens.
 - Implement functionality with JavaScript (e.g., dropdown menus, interactivity).
 - Optimize for accessibility (ARIA roles, keyboard navigation).
 - Include additional sections like the "Highlights" or "Followers" area.
+
 
 ## Personal Notes
 
