@@ -200,13 +200,13 @@
 }
 
 
-@media (max-width: 936px){
+@media screen and (max-width: 936px){
     .account-page{
         width: calc(100vw*0.854);
     }
 }
 
-@media (max-width: 740px){
+@media screen and (max-width: 740px){
     .image-container, .button-container{
         width: calc(100vw*0.346);
     }

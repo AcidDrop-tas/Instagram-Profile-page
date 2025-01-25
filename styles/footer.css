@@ -10,6 +10,9 @@
     min-height: 80px;
 }
 
+footer div{
+    display: flex;
+}
 
 .help{
     font-family: Nimbus Sans;
@@ -18,10 +21,10 @@
     word-spacing: 10px;
     margin-bottom: 15px;
 
-    display: flex; /* Change to flexbox for better control */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    justify-content: center; /* Center items within the flex container */
-    gap: 10px; /* Add spacing between spans */
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px; 
 
 
     cursor: default;
@@ -40,7 +43,7 @@
     cursor: pointer;
 }
 
-@media (max-height: 830px){
+@media screen and (max-height: 830px){
     .footer{
         top: 730px;
     }

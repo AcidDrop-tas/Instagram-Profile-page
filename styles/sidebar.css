@@ -115,13 +115,13 @@
     z-index: 300;
 }
 
-@media (min-width: 1133px) and (max-width: 1710px){
+@media screen and (min-width: 1133px) and (max-width: 1710px){
     .sidebar{
         width: 198px;
     }
 }
 
-@media (max-width: 1132px){
+@media screen and (max-width: 1132px){
     .sidebar{
         width: 43px;
     }
@@ -163,13 +163,13 @@
     }
 }
 
-@media (max-height: 640px){
+@media screen and (max-height: 640px){
     .threads-container{
         display: none;
     }
 }
 
-@media (max-height: 560px){
+@media screen and (max-height: 560px){
     .sidebar-section2{
         top: 488px;
     }

@@ -105,6 +105,7 @@
     font-family: Nimbus Sans;
     font-size: 12.5px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .share-your-photos{
@@ -139,7 +140,7 @@
     transition: display 20ms;
 }
 
-@media (max-width: 936px){
+@media screen and (max-width: 936px){
     .photos{
         width: calc(100vw*0.854);
     }
